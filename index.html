@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cssReset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ABRA-LABS Exercise No. 1</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="./img/Logo.png" alt="logo" />
+    </header>
+
+    <div class="container">
+      <section>
+        <h1>React</h1>
+        <h2 class="header__section">
+          A javascript library for building user interfaces
+        </h2>
+        <div class="buttons">
+          <a class="header__button active" href="#">get started</a>
+          <a class="header__button" href="#">tutorial</a>
+        </div>
+
+        <h2 class="header__section bold">Learn Once, Write Anywhere</h2>
+        <p>
+          We don’t make assumptions about the rest of your technology stack, so
+          you can develop new features in React without rewriting existing code.
+        </p>
+        <p>
+          React can render on the server using Node and power mobile apps using
+          <a class="paragraph-link" href="#">React Native.</a>
+        </p>
+      </section>
+      <div class="line"></div>
+      <section>
+        <h3>A Simple Component</h3>
+        <p>
+          React components implement a <strong> render() </strong> method that
+          takes input data and returns what to display. This example uses an
+          XML-like syntax called JSX. Input data that is passed into the
+          component can be accessed by <strong> render() </strong> via
+          <strong> this.props. </strong>
+        </p>
+        <br />
+        <br />
+        <br />
+
+        <p>
+          JSX is optional and not required to use React. Try the
+          <a class="link-orange" href="#">Babel REPL</a> to see the raw
+          JavaScript code produced by the JSX compilation step.
+        </p>
+
+        <div class="cod-snipet">
+          <img src="./img/image p2.jpg" alt="cod snipet" />
+        </div>
+      </section>
+      <div class="line"></div>
+
+      <section>
+        <h3>Basic List Component</h3>
+
+        <ol>
+          <li>Usually you would render lists inside a component.</li>
+          <li>
+            We can refactor the previous example into a component that accepts
+            an array of numbers and outputs a list of elements.
+          </li>
+          <li>
+            When you run this code, you’ll be given a warning that a key should
+            be provided for list items.
+          </li>
+        </ol>
+        <ul>
+          <li>
+            A “key” is a special string attribute you need to include when
+            creating lists of elements.
+          </li>
+          <li>We’ll discuss why it’s important in the next section.</li>
+          <li>
+            Let’s assign a <strong>key</strong> to our list items inside
+            <strong>numbers.map()</strong> and fix the missing key issue.
+          </li>
+        </ul>
+        <div class="cod-snipet">
+          <img src="./img/image p3.jpg" alt="snipet" />
+        </div>
+
+        <a class="link-orange" href="#">Try it on Abra-Labs</a>
+      </section>
+    </div>
+  </body>
+</html>
