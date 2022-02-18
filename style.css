@@ -34,13 +34,27 @@ h1 {
   padding: 1.6rem 5.2rem;
   border-radius: 12px;
 }
+
+.header__button:focus {
+  background-color: #faefdd;
+}
+.header__button:hover {
+  color: #f08e0e;
+}
 .active {
   background-color: #ff9f00;
   color: #fcfaf7;
   margin-right: 1.6rem;
   padding: 1.6rem 3.2rem;
 }
-
+.active:hover {
+  background-color: #f08e0e;
+  color: #fcfaf7;
+}
+.active:focus {
+  border: 2px solid #d87a00;
+  background-color: #f08e0e;
+}
 .bold {
   margin-top: 7.2rem;
   font-size: 24px;
